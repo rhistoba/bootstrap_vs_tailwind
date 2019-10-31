@@ -11,3 +11,10 @@
     @apply bg-blue-600;
   }
 }
+
+.btn-dark {
+  @apply text-gray-100 bg-gray-800;
+  &:hover {
+    @apply bg-gray-900;
+  }
+}
