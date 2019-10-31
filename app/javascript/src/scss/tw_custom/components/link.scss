@@ -1,0 +1,13 @@
+.link-black {
+  @apply text-gray-500;
+  &:hover {
+    @apply text-gray-600;
+  }
+}
+
+.link-active {
+  @apply text-gray-700 cursor-text select-none;
+  &:hover {
+    @apply text-gray-700;
+  }
+}

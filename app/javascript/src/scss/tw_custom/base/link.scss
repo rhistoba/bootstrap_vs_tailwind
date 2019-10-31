@@ -1,0 +1,6 @@
+a {
+  @apply text-blue-500 cursor-pointer;
+  &:hover {
+    @apply text-blue-600;
+  }
+}
