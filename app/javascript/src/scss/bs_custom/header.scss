@@ -1,0 +1,12 @@
+header {
+  .navbar-nav {
+    a.nav-link {
+      color: $gray-600;
+    }
+    .active {
+      a.nav-link {
+        color: $black;
+      }
+    }
+  }
+}
